@@ -7,18 +7,7 @@ module.exports = {
 	rules: {
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-		'prettier/prettier': [
-			'error',
-			{
-				semi: false,
-				singleQuote: true,
-				trailingComma: 'all',
-				bracketSpacing: true,
-				arrowParens: 'avoid',
-				// vueIndentScriptAndStyle: true,
-				useTabs: true,
-			},
-		],
+		'prettier/prettier': 'error',
 	},
 	parserOptions: {
 		parser: 'babel-eslint',

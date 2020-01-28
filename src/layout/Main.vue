@@ -16,3 +16,9 @@ const Main = createComponent({
 })
 export default Main
 </script>
+
+<style lang="scss" scoped>
+#main {
+	padding: 3rem;
+}
+</style>
